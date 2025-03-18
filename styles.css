@@ -1,0 +1,31 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    word-spacing: 10px;
+    padding: 10px;
+    
+    
+ }
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+ }
+ p {
+	border: 2px solid rgb(231, 230, 230);
+	background-color: #ffffff;
+	height:50 px;
+	overflow:auto;
+}
+
+div
+{
+display: flex; 
+justify-self: unset;
+width: 40%
+    
+}
