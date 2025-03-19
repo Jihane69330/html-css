@@ -7,25 +7,66 @@ nav {
     text-align: center;
     word-spacing: 10px;
     padding: 10px;
-    
-    
- }
- nav a {
-    color: #000000;
-    text-decoration: none;
-    font-size: larger;
- }
- p {
-	border: 2px solid rgb(231, 230, 230);
-	background-color: #ffffff;
-	height:50 px;
-	overflow:auto;
+
+
 }
 
-div
-{
-display: flex; 
-justify-self: unset;
-width: 40%
-    
+nav a {
+    color: #030303;
+    text-decoration: none;
+    font-size: larger;
 }
+
+p {
+    border: 2px solid rgb(13, 12, 12);
+    background-color: #f5eac5;
+    height: px;
+    overflow: auto;
+}
+
+div {
+    display: flex;
+    justify-self: unset;
+    width: 40%
+}
+
+p {
+    font-size: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+u {
+    font-size: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+i {
+    font-size: 13px;
+}
+
+I 
+{
+    font-size: 25px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission{
+gap: 30px;
+margin-right: 60px;
+
+}
+
+
+
