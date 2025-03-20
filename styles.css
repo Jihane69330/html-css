@@ -1,6 +1,7 @@
 h1 {
     color: black;
     text-align: center;
+    width: 500%;
 }
 
 nav {
@@ -17,11 +18,18 @@ nav a {
     font-size: larger;
 }
 
+.mission p {
+    margin: 0;
+}
+
 p {
-    border: 2px solid rgb(13, 12, 12);
-    background-color: #f5eac5;
-    height: px;
-    overflow: auto;
+    padding: 1%;
+    text-align: center;
+    border:2px solid black;
+    border-color: #0b0b0b;
+    background-color: #d2e9f5fb;
+    border-radius: 5%;
+    /*overflow: auto;*/
 }
 
 div {
@@ -34,10 +42,10 @@ p {
     font-size: 10px;
 }
 
-h4 {
+ {
     font-size: 20px;
     justify-content: center;
-    gap: 20px;
+   
 }
 
 u {
@@ -64,9 +72,53 @@ I
 
 .mission{
 gap: 30px;
-margin-right: 60px;
-
+width: 100%;
+padding : 0%;
+flex:1;
 }
 
 
+.mission p {
+    width : 100%
+}
 
+.pok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 3px solid rgb(12, 12, 12);
+    border-radius: 5%;
+    background-color: rgb(199, 245, 235);
+    width: 30%;
+
+}
+
+.pok h4 {
+    text-align: center;
+    font-size: 200%;
+    border-radius: 10%;
+    gap: 0;
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+}
+
+.yu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.yu p{
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+
+li {
+    margin: 5px 5px 15px;
+  }
+  li:hover {
+    cursor: grab;
+  }
